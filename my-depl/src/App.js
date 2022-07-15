@@ -6,7 +6,7 @@ function App() {
   const [msg, setMsg] = useState("");
 
   useEffect(() => {
-    fetch("/api/deploy")
+    fetch("http://54.161.140.125:8080/api/deploy")
       .then((response) => response.text())
       .then((msg) => {
         setMsg(msg);
