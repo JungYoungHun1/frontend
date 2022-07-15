@@ -1,0 +1,53 @@
+.view_containerInsert {
+  margin-top: 40px;
+  display: flex;
+  height: auto;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.insertBtn {
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1vh;
+  border: 0;
+  margin: 10px;
+  background-color: rgb(246, 254, 127);
+  color: black;
+  border-radius: 30px;
+  width: 12vw;
+  height: 3vh;
+}
+
+.insertFooter {
+  position: fixed;
+  bottom: 0;
+}
+
+.titleInsert {
+  height: 40px;
+  width: 350px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.contentInsert {
+  height: 80px;
+  width: 350px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.writerInsert {
+  height: 20px;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}

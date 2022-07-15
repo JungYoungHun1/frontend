@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.tableMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+.tableLeft {
+  width: 200px;
+  /* margin-right: 100px; */
+  margin-left: 50px;
+}
+.tableRight {
+  width: 200px;
+  /* margin-left: 80px; */
+  margin-right: 50px;
+}
+table {
+  width: 800px;
+  height: 200px;
+  border-collapse: separate;
+  border-spacing: 0px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+td {
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+}
+
+th {
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: rgb(246, 254, 127);
+  color: black;
+}
+
+.view_container {
+  margin-top: 40px;
+  display: flex;
+  height: auto;
+  width: auto;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pageButton {
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1vh;
+  border: 0;
+  margin: 10px;
+  background-color: rgb(246, 254, 127);
+  color: black;
+  border-radius: 30px;
+  width: 12vw;
+  height: 3vh;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.titleBoard:hover {
+  background-color: rgb(246, 254, 127);
+}
+
+.mainBoard {
+  width: 100vw;
+  font-size: 50px;
+}
+
+.goInsert {
+  width: 5vw;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: black;
+  background-color: rgb(246, 254, 127);
+  float: right;
+  margin-right: 400px;
+}
+.mainLeft {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 80px;
+  margin-left: 400px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(246, 254, 127);
+  color: black;
+  width: 100vw;
+  height: 10vh;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 40px;
+}
+
+.headerText {
+  align-items: center;
+  text-align: center;
+  margin-left: -30px;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(246, 254, 127);
+  color: black;
+  width: 100vw;
+  height: 5vh;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.headerImg {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  margin: 100px;
+}
+
+.mainHead {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.pageOut {
+  padding: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.pageNum {
+  padding: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: rgb(246, 254, 127);
+}
+.pageOut:hover {
+  background-color: rgb(246, 254, 127);
+}

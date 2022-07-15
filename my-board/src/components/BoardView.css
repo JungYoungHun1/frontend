@@ -1,0 +1,73 @@
+button {
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1vh;
+  border: 0;
+  background-color: rgb(246, 254, 127);
+  color: black;
+  border-radius: 30px;
+  width: 50px;
+  height: 3vh;
+}
+
+.mainView {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.modBtn {
+  margin-right: 150px;
+}
+.listBtn {
+  margin-left: 150px;
+}
+
+.viewMainTitle {
+  margin-left: 35px;
+}
+
+.viewTitle {
+  width: 350px;
+  height: 40px;
+  border-style: none;
+}
+
+.viewContent {
+  width: 350px;
+  height: 80px;
+  border-style: none;
+}
+
+.commentView {
+  width: 150px;
+  height: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: none;
+}
+
+.insertCommentWritter {
+  width: 70px;
+  height: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.insertCommentContent {
+  width: 120px;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.commentBox {
+  border: 1px solid black;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
